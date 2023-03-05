@@ -7,7 +7,7 @@ import java.time.LocalDate;
 public class HelloWorld { // definizione classe HelloWorld
     // dichiarazione e assegnazione campi
     private static final String MSG = "Lezione di Ingegneria del Software";
-    private static final String NAME = "Marco";
+    private LocalDate d;
 
     /**
      * Metodo da cui inizia l’esecuzione del programma
@@ -17,6 +17,7 @@ public class HelloWorld { // definizione classe HelloWorld
      * @version 0.1
      */
     public static void main(String[] args) {
+        final String NAME = "Marco";
         System.out.print("Hello "); // scrive su schermo
         System.out.println(NAME);
         System.out.println(MSG);
@@ -27,7 +28,7 @@ public class HelloWorld { // definizione classe HelloWorld
 
     /** questo metodo serve a stampare la data */
     private void printDate() { // metodo
-        LocalDate d = LocalDate.now(); // chiama metodo static
+        d = LocalDate.now(); // chiama metodo static
         System.out.println("data: "+d);   
     }
 }
