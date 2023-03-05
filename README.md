@@ -1,6 +1,6 @@
 # Codice per le prime lezioni di Ingegneria del Software
 
-## Benvenuti
+### Benvenuti
 
 Guardare prima il codice della classe `HelloWorld.java` per imparare la sintassi Java di creazione di metodi e classi. Notare il metodo `static`, i campi `static` e `final`, e l'istanziazione di un oggetto con `new`.
 
