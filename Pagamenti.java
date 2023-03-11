@@ -11,10 +11,11 @@ import java.util.List;
  * 
  * @version 1.3
  */
-public class Pagamenti1 {
+public class Pagamenti {
     private List<String> importiLetti = new ArrayList<>();
     private List<Float> valori = new ArrayList<>();
-    private float totale, massimo;
+    private float totale:
+    private float massimo;
 
     /**
      * legge linea per linea il file, e riempie una lista
