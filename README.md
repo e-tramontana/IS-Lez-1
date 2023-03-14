@@ -11,7 +11,7 @@ Guardare prima il codice della classe `HelloWorld.java` per imparare la sintassi
 
 Quindi guardare il codice della classe `CalcolaImporti01.java`, il suo client `ClientCalcola.java`, poi la versione `CalcolaImporti02.java`. 
 
-Infine, guardare la versione finale `Pagamenti.java` e il suo client `ClientPagam.java`.
+Infine, guardare la versione finale `Pagamenti.java`, il suo client `ClientPagam.java` e il codice di test `TestPagamenti.java`.
 
 ![UML Class Diagram di Pagamenti](Pagamenti.png)
 
