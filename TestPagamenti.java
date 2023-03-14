@@ -1,5 +1,9 @@
 import java.io.IOException;
 
+/**
+ * La classe TestPagamenti è sottoclasse di MyTestSupport che implementa i 
+ * metodi assert (assertEquals e assertTrue).
+ */
 public class TestPagamenti extends MyTestSupport {
     private final Pagamenti pagam = new Pagamenti();
     private final String nomeFile = "Importi.csv";
