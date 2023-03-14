@@ -11,6 +11,7 @@ public class MyTestSupport {
     private static final String OK = GREEN + "OK " + RESET;
     private static final String FAIL = RED + "FAILED " + RESET;
 
+    // a e b sono il risultato calcolato e il risultato atteso, msg è il messaggio da stampare
     protected void assertEquals(float a, float b, String msg) {
         if (a == b)
             System.out.print(OK);
