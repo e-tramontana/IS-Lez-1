@@ -10,11 +10,11 @@ public class TestPagamenti extends MyTestSupport {
     private final String percorso = "./";
 
     public static void main(String[] args) {
-        TestPagamenti tl = new TestPagamenti();
-        tl.testLeggiFile();
-        tl.testLeggiValoreDaFile();
-        tl.testSommaValori();
-        tl.testMaxValore();
+        TestPagamenti t = new TestPagamenti();
+        t.testLeggiFile();
+        t.testLeggiValoreDaFile();
+        t.testSommaValori();
+        t.testMaxValore();
     }
 
     private void initLista() {
@@ -27,7 +27,9 @@ public class TestPagamenti extends MyTestSupport {
 
     public void testSommaValori() {
         initLista();
+        // chiama il metodo da testare
         pagam.calcolaSomma();
+        // legge il risultato calcolato e lo confronta con il risultato atteso
         assertEquals(pagam.getSomma(), 2087.21f, "somma");
     }
 
