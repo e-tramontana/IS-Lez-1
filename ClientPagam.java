@@ -4,7 +4,7 @@ import java.io.IOException;
 public class ClientPagam {
 
     public static void main(final String[] args) {
-        Pagamenti1 p = new Pagamenti1();
+        Pagamenti p = new Pagamenti();
         p.svuota();
         try {
             p.leggiFile("./", "Importi.csv");
