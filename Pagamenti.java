@@ -14,7 +14,7 @@ import java.util.List;
 public class Pagamenti {
     private List<String> importiLetti = new ArrayList<>();
     private List<Float> valori = new ArrayList<>();
-    private float totale:
+    private float totale;
     private float massimo;
 
     /**
